@@ -105,6 +105,10 @@ h2::selection {
 
 /* Project cards */
 .card {
+  aspect-ratio: 1.67 / 1;
+  position: relative;
+  height: auto;
+  width: 100%;
   padding: 1rem;
   background: var(--card-background);
   color: #ffffff;
@@ -136,17 +140,17 @@ h2::selection {
 
 /* project 1 */
 .card:nth-child(1) {
-  background: url(../assets/project/project-one.png) center center/cover;
+  background: url(../assets/project/1-670.gif) center center/cover;
 }
 
 /* Project 2 */
 .card:nth-child(2) {
-  background: url(../assets/project/project-two.png) center center/cover;
+  background: url(../assets/project/MyVideo4.gif) center center/cover;
 }
 
 /* Project 3 */
 .card:nth-child(3) {
-  background: url(../assets/project/project-three.png) center center/cover;
+  background: url(../assets/project/16.jpg) center center/cover;
 }
 
 /* Project 4 */
